@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-10 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="image/404.jpg">
+                        </figure>
+                    </div>
+                    <p>Welcome to your own weather app!</p>
+                    <h1>{{errormessage}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+                    
+                </div>
+            </div>
+        </div>
+     </div> 
+    
+</body>
+</html>
